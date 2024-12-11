@@ -74,7 +74,7 @@ static int get_device_model()
             // licheerv nano
             device_model = 3;
         }
-        if (strncmp(buf, "Milk-V DuoS", 11) == 0)
+        if (strncmp(buf, "Milk-V DuoS", 11) || strncmp(buf, "Seeed reCamera", 14) == 0 == 0)
         {
             // milkv duo s
             device_model = 4;
